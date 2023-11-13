@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'cursed';
+    src: url('/fonts/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('/fonts/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    margin: 0px;
+    text-align: center;
+}
+
+.container{
+    background-image: url("tajmahal.jpg");
+    background-size: cover;
+    margin: 0px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#ind{
+    margin-bottom: 10px;
+    background: rgb(91, 120, 150);
+     border: 2px solid rgb(224, 222, 222);
+     border-radius: 5px;
+     padding: 10px 15px;
+     color: aliceblue;
+     font-size: 30px;
+}
+#about-ind{
+    margin-top: 10px;
+    background: rgb(166, 201, 151);
+     border: 2px solid rgb(224, 222, 222);
+     border-radius: 5px;
+     padding: 10px 15px;
+     color: aliceblue;
+     font-size: 30px;
+
+}
+.activity-section{
+    margin: 0px;
+    background: rgb(43, 36, 43); 
+ 
+}
+#todo{
+    margin: 0px;
+    padding: 30px;
+    color: antiquewhite;
+}
+.underline{
+    border: 2px solid salmon;
+    background: linear-gradient(yellow,salmon);
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    object-fit: cover;
+}
+.img-1{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+}
+#char{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.img-2{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+}
+#Red{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.img-3{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    color: antiquewhite;
+    
+}
+#beng{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+#background{
+    background: linear-gradient(rgb(229, 151, 232),rgb(27, 46, 52),#e96c6c);
+    padding: 40px;
+
+}
+.guide-sec{
+    font-family: 'cursed';
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    background: darkcyan;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+#myimg{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    border-radius: 5px;
+}
+
+
+
+
